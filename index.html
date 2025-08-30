@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <title>Owen J</title>
+
+            <link rel="stylesheet" href="./styles/style.css">
+            <link rel="stylesheet" href="./styles/style-pages.css">
+            <link rel="stylesheet" href="./styles/mediaqueries.css">
+            
+</head>
+    
+<body>
+    
+        <!-- =========== NAVIGATIONS ===========  -->
+
+        <!-- DESKTOP NAV -->
+        <nav id="desktop-nav">
+            <div class="logo">Owen J</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#IT111">IT111 Blog Entries</a></li>
+                    <li><a href="#flex">Flex</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+        <!-- HAMBURGER MENU -->
+        <nav id="hamburger-nav">
+            <div class="logo">Owen J</div>
+                <div class="hamburger-menu">  
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="menu-links">
+                        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                        <li><a href="#IT111" onclick="toggleMenu()">IT111</a></li>
+                        <li><a href="#flex" onclick="toggleMenu()">Flex</a></li>
+                    </div>    
+                    
+                </div>
+        </nav>
+
+
+        <!-- =========== PAGES ===========  -->
+
+        <!-- HOMEPAGE/PROFILE SECTION -->
+        <section id="home">
+
+            <!-- PICTURE -->
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt="Owen profile picture">
+            </div>
+
+            <!-- ABOUT -->
+            <div class="section__text">
+                <p class="section__text__p5">Hello I'm,</p>
+                <h1 class="title1">Owen M. Jerusalem</h1>
+                <p class="section__text__p2">BSIT-1D</p>
+                
+                <p class="section__text__p4">
+                    I am passionate about graphic design, programming, and music creation. 
+                </p>
+                
+
+                <!-- BUTTONS -->
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="window.open('./assets/8years.png')"> 
+                    MYSELF 8 YEARS FROM NOW</button>
+                
+                </div>
+
+
+                <!-- LINKS -->
+                <div id="socials-container">
+
+                    <img src="./assets/facebook.png" 
+                    alt="My facebook profile" class="icon" 
+                    onclick="location.href = 'https://web.facebook.com/profile.php?id=100006191598801'">
+                    
+                    <img src="./assets/github.png" 
+                    alt="My github profile" class="icon" 
+                    onclick="location.href = 'https://github.com/Owen-Jerusalem'">
+                    
+                </div>
+
+                
+        
+               
+
+                </div>
+
+            </div>
+        </div>
+
+        </section>
+        
+        <!-- IT111 SECTION -->
+        <section id="IT111">
+
+                <!-- HEADER -->
+                <p class="section__text__p1">What I Have Learned</p>
+                <h1 class="title">IT111 Blog Entries</h1>
+
+                <!-- NAVIGATION -->
+                <nav id="desktop-nav">
+                    <div>
+                        <ul class="nav-links2">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#IT111">IT111 Blog Entries</a></li>
+                            <li><a href="#flex">Flex</a></li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+                
+                <!-- ARTICLES -->
+                <div class="container">
+
+                    <div class="card">
+                      <h2>Introduction to Computing</h2>
+                      <p>I have learned the importance of computers and its main 
+                        function, to compute. It's valuable impacts in various fields made innovative solutions
+                        to help improve our lives and solve complex problems.</p>
+                    </div>
+
+                    <div class="card">
+                      <h2>Professions & Careers in Computing</h2>
+                      <p>I thought there were only a few professions I could specialize in for my future career, but I was wrong. 
+                        Instead, the tech industry is rapidly promoting diverse specialization skills in computing.</p>
+                    </div>
+
+                    <div class="card">
+                      <h2>Information Processing Cycle</h2>
+                      <p>I learned the fundamentals of information processing concepts, 
+                        which will aid in analyzing gathered data for decision-making and problem-solving.
+                      </p>
+                    </div>
+
+                    <div class="card">
+                      <h2>Introduction to Computer System</h2>
+                      <p>The 4 computer components namely, hardware, software, people ware, and data ware
+                        are interconnected in functioning a computer system.</p>
+                    </div>
+
+                    <div class="horizontal-card">
+                        <h2>Lesson Challenged me the Most</h2>
+                        <p>What challenged me the most is making this Website Portfolio.</p>
+                    </div>
+
+                </div>
+            
+            <!-- ARROW ICON/BUTTON[To navigate(DOWN)] -->
+            <img src="./assets/arrow.png" alt="Arrow icon" 
+            class="icon arrow" 
+            onclick="location.href='./#flex'">
+
+        </section>
+
+        <!-- FLEX SECTION  -->
+        <section id="flex">
+
+                <!-- HEADER -->
+                <p class="section__text__p1">Explore My</p>
+                <h1 class="title">Flex</h1>
+
+                <!-- NAVIGATION -->
+                <nav id="desktop-nav">
+                    <div>
+                        
+                        <ul class="nav-links2">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#IT111">IT111 Blog Entries</a></li>
+                            <li><a href="#flex">Flex</a></li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- FLEX CONTENTS -->
+                <div class="flex-container">
+
+                    <div class="card2">
+                      <img class="flex-image" src="./assets/flex-1.png" alt="Image 1">
+                      <p class="hidden-text">I design t-shirts and make income out of it. 
+                                        A recent client was from the USTP-Claveria 
+                                        College of Arts and Sciences, SB0.</p>
+
+                    </div>
+
+                    <div class="video-container">
+                        <video class="video" src="./assets/flex-3.mp4" muted></video>
+                        <p class="hidden-text2">I really love music. This is a song I composed last October, titled "staRs."</p>
+                      </div>
+  
+                    <div class="card2">
+                      <img class="flex-image2" src="./assets/flex-2.png" alt="Image 2">
+                      <p class="hidden-text">I adore my cats so much. The white one is "Mikay",
+                                             in the middle is "Mikmik", and the ginger one in the right is "Longki".</p>
+                    </div>
+
+                 
+                  </div>
+                
+                
+                
+                 <!-- ARROW ICON/BUTTON[To navigate(Back to home page)] -->
+                <img src="./assets/arrow2.png" alt="Arrow icon" 
+                class="icon arrow" 
+                onclick="location.href='./#home'">
+
+
+        </section>
+
+
+        <!-- =========== FOOTER ===========  -->
+        
+        <!-- FOOTER -->
+        <footer>
+            <nav class="footer">
+                <p>Copyright &#169; 2024 Owen M. Jerusalem.
+                     All rights reserved.</p>
+            </nav>
+        </footer>
+        
+    
+
+
+        <script src="script.js"></script>
+
+
+
+        <!-- Background -->
+       
+ 
+
+
+
+
+</body>
+</html>

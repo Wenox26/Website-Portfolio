@@ -1,0 +1,161 @@
+/* FOR SCREEN RESPONSIVENESS ACROSS DIFFERENT PLATFORMS */
+
+@media  screen and (max-width: 1400px ) {
+    /* BACKGROUND EFFECTS */
+    body {
+        background: linear-gradient(-45deg, #161D6F, #112562, #59cec4);
+        background-size: 2000% 2000%;
+        animation: gradient 10s ease-out infinite;
+        height: 100vh;
+      }
+      
+    @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+        
+    }
+
+    #home{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .container{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    /* HOMEPAGE+GENERAL ADJUSTMENTS */
+    #desktop-nav{
+        display: none;
+        margin-bottom: 6rem;
+    }
+
+    #desktop-nav2{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+    }
+
+    #experience, .experience{
+        margin-top: 2rem;
+    }
+
+    #home, .section-container{
+        display: block;
+    }
+
+    #socials-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .btn-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    #section, .section-container{
+        height: fit-content;
+    }
+    
+    section{
+        margin: 0 5%;
+    }
+
+    .logo{
+        margin-left: 11%;
+    }
+
+    .section__pic-container{
+        display: flex;
+        height: 300px;
+        width: 300px;
+        margin: 0 auto 2rem;
+    }
+
+    .section__text{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .title1{
+        text-align: center;
+        line-height: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .section__text__p5{
+        text-align: center;
+    }
+
+
+    .about-container{
+        margin-top: 3;
+    }
+
+
+} 
+
+@media screen and (max-width: 1200px) {
+    /* IT111 BLOG */
+    .title{
+        line-height: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .horizontal-card{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    /* FLEX */
+    .card2 img, .video-container video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    .card2 {
+        width: 90%;
+        height: 350px;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .video-container{
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+        position: relative;
+    }
+    
+    
+}
