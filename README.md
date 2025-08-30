@@ -5,9 +5,13 @@ This project is a simple personal portfolio website created as part of the Intro
 
 The website serves as a digital profile where visitors can learn more about the creator, view projects, and access contact information. Through this project, students gain hands-on experience in building a static website, applying the principles of computing in a practical and creative way.
 
->Key Features:
+# Key Features:
 -Homepage with an introduction and personal background
+
 -About Me section highlighting education and skills
+
 -Portfolio/Projects section to display works
+
 -Contact page with details or form
+
 -Basic responsive design using CSS
